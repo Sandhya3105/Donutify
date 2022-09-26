@@ -1,0 +1,175 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+div {
+    cursor:url(Cute.cur),auto;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4,.homeimg-0,.homeimg-1,.homeimg-2,.homeimg-3,.homeimg-4{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-1 {
+  background-image: url("https://images.unsplash.com/photo-1626094309830-abbb0c99da4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&w=1000&q=80");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("https://assets.entrepreneur.com/content/3x2/2000/1645131241-GettyImages-1296359317.jpg?crop=1:1");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://images.unsplash.com/photo-1585653621032-a5fec164ee92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  min-height: 400px;
+}
+.bgimg-4 {
+  background-image: url("https://images.unsplash.com/photo-1618553577479-da8a7b64fd46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1058&q=80");
+  min-height: 400px;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption1 {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: left;
+  color: #000;
+}
+
+
+.caption span.border,.caption1 span.border {
+  background-color:#3d3d3d;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #eadcea ; 
+  
+}
+
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: #f5eff5;
+  color: black;
+  cursor:url(Cute.cur),auto;
+}
+
+.topnav a.active {
+  background-color:#111;
+  color: white;
+}
+
+.topnav-right{
+  float: right;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+
+.homeimg-0 {
+  background-image: url("https://picjumbo.com/wp-content/uploads/yummy-donuts-on-yellow-background-free-photo-1080x720.jpg");
+  min-height: 100%;
+}
+
+.homeimg-1 {
+  background-image: url("1.jpg");
+  min-height: 100%;
+}
+
+.homeimg-2 {
+  background-image: url("2.jpg");
+  min-height: 100%;
+}
+
+.homeimg-3 {
+  background-image: url("3.jpg");
+  min-height: 100%;
+}
+.homeimg-4 {
+  background-image: url("4.jpg");
+  min-height: 100%;
+}
+
+
+#loader {
+	position:absolute;
+	width:100%;
+	height:2000%;
+	z-index:100;
+	background-color:#e2e0e0;
+}
+
+#load {
+	position:fixed;
+	width:206px;
+	left:50%;
+	margin-left:-103px;
+	top:50%;
+	margin-top:-103px;
+}
+
+.video-container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+

@@ -1,0 +1,41 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-0, .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-0{
+  background-image: url("https://picjumbo.com/wp-content/uploads/yummy-donuts-on-yellow-background-free-photo-1080x720.jpg");
+  min-height: 100%;
+}
+
+.bgimg-1 {
+  background-image: url("Step_1.1.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("Step_2.1.jpg");
+  min-height: 100%;
+}
+
+.bgimg-3 {
+  background-image: url("Step_3.1.jpg");
+  min-height: 100%;
+}
+.bgimg-4 {
+  background-image: url("Step_4.1.jpg");
+  min-height: 100%;
+}
+
